@@ -1,10 +1,10 @@
-﻿using JwtAuthenticationManager.Models;
-using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.IdentityModel.Tokens;
+using Partytime.Common.JwtAuthentication.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace JwtAuthenticationManager
+namespace Partytime.Common.JwtAuthentication
 {
     public class JwtTokenHandler
     {

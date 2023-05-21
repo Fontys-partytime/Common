@@ -1,4 +1,4 @@
-﻿namespace JwtAuthenticationManager.Models
+﻿namespace Partytime.Common.JwtAuthentication.Models
 {
     public class UserAccount
     {

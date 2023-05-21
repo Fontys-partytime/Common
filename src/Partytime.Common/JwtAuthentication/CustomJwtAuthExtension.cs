@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace JwtAuthenticationManager
+namespace Partytime.Common.MassTransit.JwtAuthenticationManager
 {
     public static class CustomJwtAuthExtension
     {
