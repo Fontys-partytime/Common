@@ -18,7 +18,7 @@ namespace Partytime.Common.JwtAuthentication
     public class JwtTokenHandler
     {
         public const string JWT_SECURITY_KEY = "4931575L5X7lkupX61Zj9hWm2kV2bJ63hamt729p";
-        public const string UserDatabaseConnectionString = "Server=authentication.postgres.database.azure.com;Database=users;Port=5432;User Id=tomoli;Password=34Bn473OaN76qBT7;Ssl Mode=Require;Trust Server Certificate=true;";
+        public const string UserDatabaseConnectionString = "Host=host.docker.internal; port=5435;database=users;username=tomoli;password=34Bn473OaN76qBT7"; //"Server=authentication.postgres.database.azure.com;Database=users;Port=5432;User Id=tomoli;Password=34Bn473OaN76qBT7;Ssl Mode=Require;Trust Server Certificate=true;";
         private const int JWT_TOKEN_VALIDITY_MINS = 20;
 
 
